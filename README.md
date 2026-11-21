@@ -13,10 +13,10 @@ Two strategies play a number of rounds against each other, and the total score o
 
 ## Strategies
 
-- 'alwaysCooperate': always cooperates, no matter what the opponent did. The most trusting strategy, and easy to exploit.
-- 'alwaysDefect': always defects, no matter what the opponent did. The most selfish strategy.
-- 'alwaysRandom': chooses “Cooperate” or “Defect” at random each round (reproducible thanks to 'random.seed(42)' in runGames.py).
-- 'titForTat': cooperates on the first round, then copies the opponent’s last move. It rewards cooperation and punishes defection right away.
+- `alwaysCooperate`: always cooperates, no matter what the opponent did. The most trusting strategy, and easy to exploit.
+- `alwaysDefect`: always defects, no matter what the opponent did. The most selfish strategy.
+- `alwaysRandom`: chooses “Cooperate” or “Defect” at random each round (reproducible thanks to `random.seed(42)` in runGames.py).
+- `titForTat`: cooperates on the first round, then copies the opponent’s last move. It rewards cooperation and punishes defection right away.
 
 ## How to run
  
@@ -58,10 +58,10 @@ python3 tests.py
 
 ## אסטרטגיות
 
-- 'alwaysCooperate': תמיד משתפת פעולה, בלי קשר למה שהיריב עשה. האסטרטגיה הכי סומכת על אחרים, וקל לנצל אותה.
-- 'alwaysDefect': תמיד בוגדת, בלי קשר למה שהיריב עשה. האסטרטגיה הכי אנוכית.
-- 'alwaysRandom': בוחרת בכל סיבוב באקראי בין “Cooperate” ל-“Defect” (התוצאות ניתנות לשחזור בזכות 'random.seed(42) ב-runGames.py)'.
-- 'titForTat': משתפת פעולה בסיבוב הראשון, ואחר כך מעתיקה את המהלך האחרון של היריב. היא מתגמלת שיתוף פעולה ומענישה בגידה מיד.
+- `alwaysCooperate`: תמיד משתפת פעולה, בלי קשר למה שהיריב עשה. האסטרטגיה הכי סומכת על אחרים, וקל לנצל אותה.
+- `alwaysDefect`: תמיד בוגדת, בלי קשר למה שהיריב עשה. האסטרטגיה הכי אנוכית.
+- `alwaysRandom`: בוחרת בכל סיבוב באקראי בין “Cooperate” ל-“Defect” (התוצאות ניתנות לשחזור בזכות `random.seed(42)` ב-runGames.py).
+- `titForTat`: משתפת פעולה בסיבוב הראשון, ואחר כך מעתיקה את המהלך האחרון של היריב. היא מתגמלת שיתוף פעולה ומענישה בגידה מיד.
 
 ## איך מריצים
  
